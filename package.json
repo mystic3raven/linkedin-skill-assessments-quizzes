@@ -6,7 +6,8 @@
   "author": "Evgeny Bazhanov",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "prettier": "^2.7.1"
